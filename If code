@@ -1,0 +1,29 @@
+public class Main {
+    public static void main(String[] args) {
+
+        /* Program, który:
+
+        Deklaruje zmienną temperatura (np. wartość w stopniach Celsjusza,         typu int).
+        
+        Wyświetla różne komunikaty w zależności od wartości:
+            Jeśli temperatura < 0, wyświetl "Mróz".
+            Jeśli temperatura >= 0 i temperatura <= 20, wyświetl "Chłodno".
+            Jeśli temperatura > 20, wyświetl "Ciepło".*/
+        
+        int temperatura = 0;
+        
+        if (temperatura <0)
+        {
+            System.out.println("Mróz");
+        }
+        else if(temperatura>=0 && temperatura<=20)
+        {
+            System.out.println("Chlodno");
+        }
+        else
+        {
+            System.out.println("Cieplo");
+        }          
+
+    }
+}
