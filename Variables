@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+
+        // Deklaracja zmiennych:
+        String imie = "Agnieszka";
+        int wiek = 42;
+        double ulubionaLiczba = 7;
+        boolean czyJestProgramista = false;
+
+        System.out.println("Imie: " + imie);
+        System.out.println("Wiek: " + wiek);
+        System.out.println("Ulubiona liczba: " + ulubionaLiczba);
+        System.out.println("Czy jest programistką: " + czyJestProgramista);
+    }
+}
